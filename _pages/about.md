@@ -13,7 +13,7 @@ Hey there! 👋 I am a fourth-year Ph.D. student in Computer Science at Columbia
 Recent News
 ======
 - Check out our new paper on [Pre-trained Model for Low-Resource Dialogue Summarization](https://arxiv.org/pdf/2212.10018.pdf)!
-- I'm excited to announce that I will be co-organizing the Document-grounded Dialogue and Conversational Question Answering Workshop at ACL 2023 in Toronto.
+- I will be co-organizing the Document-grounded Dialogue and Conversational Question Answering Workshop at ACL 2023 in Toronto.
 - Our paper [Robots-Dont-Cry](https://arxiv.org/pdf/2210.12429.pdf) has been accepted by EMNLP 2022.
 - Our paper on [Knowledge-Grounded Dialogue Generation](https://arxiv.org/pdf/2112.07924.pdf) has been accepted by NAACL 2022.
 - Our paper on [Using Chatbots to Teach Languages](https://dl.acm.org/doi/pdf/10.1145/3491140.3528329) by L@S 2022.
