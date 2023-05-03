@@ -16,6 +16,7 @@ Recent News
 - I will be co-organizing the [5th Workshop on NLP for Conversational AI (5th NLP4ConvAI) at ACL 2023](https://sites.google.com/view/5thnlp4convai/) in Toronto.
 - I will be co-organizing the [First Workshop on Social Influence in Conversations (SICon) at ACL 2023](https://sites.google.com/view/sicon-2023/home) in Toronto.
 - I will be co-organizing the [Document-grounded Dialogue and Conversational Question Answering Workshop at ACL 2023](https://doc2dial.github.io/workshop2023/) in Toronto.
+- Our paper [User Adaptive Language Learning Chatbots with a Curriculum](https://arxiv.org/pdf/2304.05489.pdf) has been accepted by AIED 2023.
 - Our paper [Robots-Dont-Cry](https://arxiv.org/pdf/2210.12429.pdf) has been accepted by EMNLP 2022.
 - Our paper on [Knowledge-Grounded Dialogue Generation](https://arxiv.org/pdf/2112.07924.pdf) has been accepted by NAACL 2022.
 - Our paper on [Using Chatbots to Teach Languages](https://dl.acm.org/doi/pdf/10.1145/3491140.3528329) has been accepted by L@S 2022.
