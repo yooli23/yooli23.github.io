@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Yu (Yoo) Li"
-  avatar           : "avatar.png"
-  bio              : "Ph.D. student in Computer Science at Columbia."
-  location         : "New York, NY"
+  avatar           : "avatar.jpg"
+  bio              : "Research Scientist, Salesforce AI Research."
+  location         :
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=gCoIftIAAAAJ&hl=en"
-  email            : "yooli@cs.columbia.edu"
+  email            : "yooli0601 [at] gmail [dot] com"
   researchgate     : 
   uri              :
   bitbucket        :
