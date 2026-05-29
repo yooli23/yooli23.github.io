@@ -4,5 +4,6 @@ collection: publications
 permalink: /publication/2024-from-pixels-to-personas
 date: 2024-11-01
 venue: "EMNLP 2024 (Findings)"
+paperurl: "https://arxiv.org/abs/2410.03870"
 excerpt: "Yu Li, Devamanyu Hazarika, Di Jin, Julia Hirschberg, Yang Liu."
 ---
