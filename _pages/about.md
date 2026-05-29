@@ -12,7 +12,7 @@ news:
     text: "Started as a Research Scientist at Salesforce AI Research."
   - date: "Oct 2025"
     text: "Defended my Ph.D. in Computer Science at Columbia. Committee members: Dr. Julia Hirschberg, Dr. Kathleen McKeown, Dr. Michel Galley, Dr. Yang Liu, Dr. Zhou Yu."
-misc: "Outside of work, I play basketball, chess, and draw."
+misc: "Outside of work, I play basketball (peaked at twelve), chess (still learning to be good), and draw (no ChatGPT involved)."
 ---
 
 I am a Research Scientist at Salesforce AI Research. I completed my Ph.D. in Computer Science at Columbia University in 2025, advised by Prof. Zhou Yu.
