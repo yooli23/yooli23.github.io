@@ -1,0 +1,239 @@
+:root {
+  --bg: #f5ecd9;
+  --paper: #efe4cb;
+  --ink: #1a1410;
+  --muted: #5a4632;
+  --rule: #b8a786;
+  --accent: #8B0000;
+  --accent-hover: #b22222;
+  --accent-visited: #5a1a1a;
+  --max: 920px;
+  --serif: "Times New Roman", Times, serif;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+a:hover { color: var(--accent-hover); }
+a:visited { color: var(--accent-visited); }
+
+p { margin: 0 0 0.9em; }
+
+strong { font-weight: 700; }
+
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.25;
+}
+
+.page {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 3rem 2rem 1.5rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2.5rem;
+}
+
+/* Sidebar */
+.sidebar {
+  position: sticky;
+  top: 1.5rem;
+  align-self: start;
+  font-size: 0.9rem;
+}
+
+.portrait {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.sidebar .name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+}
+
+.sidebar .role,
+.sidebar .location {
+  margin: 0 0 0.2rem;
+  color: var(--muted);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.sidebar .contact {
+  border-top: 1px solid var(--rule);
+  padding-top: 0.7rem;
+}
+
+.sidebar .contact li,
+.sidebar .links li {
+  margin-bottom: 0.3rem;
+  word-break: break-word;
+  line-height: 1.4;
+}
+
+.sidebar .label {
+  display: inline-block;
+  width: 4em;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.sidebar .links {
+  border-top: 1px solid var(--rule);
+  padding-top: 0.7rem;
+}
+
+/* Main column */
+.content {
+  min-width: 0;
+  max-width: 640px;
+}
+
+.content > .bio :first-child { margin-top: 0; }
+
+.content h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0.8rem;
+  font-weight: 700;
+}
+
+.content h2 {
+  font-size: 1.1rem;
+  margin: 2rem 0 0.6rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--rule);
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.content h3 {
+  font-size: 1rem;
+  margin: 1.2rem 0 0.4rem;
+  font-weight: 700;
+}
+
+.section { margin-top: 1.8rem; }
+.section:first-of-type { margin-top: 1.5rem; }
+
+.section-note {
+  color: var(--muted);
+  margin: 0.3rem 0 0.8rem;
+  font-size: 0.92rem;
+}
+
+/* News list */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.6rem 0 0;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 6em 1fr;
+  gap: 1rem;
+  padding: 0.3rem 0;
+  align-items: baseline;
+}
+
+.news-date {
+  color: var(--muted);
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+/* Generic entry list */
+.entries {
+  list-style: none;
+  padding: 0;
+  margin: 0.6rem 0 0;
+}
+
+.entries li {
+  display: grid;
+  grid-template-columns: 3.5em 1fr;
+  gap: 1rem;
+  padding: 0.4rem 0;
+  align-items: baseline;
+}
+
+.entries .year {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.entries .entry { line-height: 1.5; }
+
+.entries .excerpt {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+/* Bio body */
+.bio ul { padding-left: 1.3rem; margin: 0.4rem 0 0.9rem; }
+.bio li { margin-bottom: 0.2rem; }
+
+/* Footer */
+.page-footer {
+  max-width: var(--max);
+  margin: 2.5rem auto 0;
+  padding: 1rem 2rem 2rem;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  .page {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem 1.25rem 1rem;
+  }
+  .sidebar { position: static; }
+  .portrait { margin: 0 auto 0.8rem; }
+  .news-list li,
+  .entries li {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+  .content { max-width: 100%; }
+}
+
+/* Print */
+@media print {
+  body { background: white; color: black; font-size: 10pt; }
+  a { color: black; text-decoration: none; }
+  .sidebar { position: static; }
+  .page { display: block; padding: 0; }
+  .page-footer { display: none; }
+}

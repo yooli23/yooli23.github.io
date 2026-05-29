@@ -1,0 +1,11 @@
+<section class="section" id="news">
+  <h2>News</h2>
+  <ul class="news-list">
+    {% for item in page.news %}
+      <li>
+        <span class="news-date">{{ item.date }}</span>
+        <span class="news-body">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
