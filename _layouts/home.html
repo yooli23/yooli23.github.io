@@ -7,7 +7,7 @@
   {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | escape }}">{% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/old-school.css' | relative_url }}">
-  {% if site.author.avatar %}<link rel="icon" href="{{ '/images/' | append: site.author.avatar | relative_url }}">{% endif %}
+  <link rel="icon" type="image/jpeg" href="{{ '/images/favicon.jpg' | relative_url }}">
 </head>
 <body>
   <main class="page">
@@ -88,6 +88,10 @@
   </main>
 
   <footer class="page-footer">
+    <div class="visitor-map">
+      <p class="visitor-caption">visitors since May 2026</p>
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=NMzZc6y-m6LpA5RjNlJ8WzU6SlTPKUvP-dWQUN5-0PI&cl=ffffff&w=a"></script>
+    </div>
     <p>&copy; {{ 'now' | date: '%Y' }} {{ site.author.name }}. Last updated {{ site.time | date: '%B %Y' }}.</p>
   </footer>
 </body>
