@@ -9,13 +9,13 @@ redirect_from:
   - /about.html
 news:
   - date: "Sep 2026"
-    text: "New preprint: [Fork Where the Model Changes Its Mind](https://arxiv.org/abs/2609.11061), on belief-shift branching for tree-structured reinforcement learning."
+    text: "New paper: [Fork Where the Model Changes Its Mind](https://arxiv.org/abs/2609.11061), on belief-shift branching for tree-structured reinforcement learning."
   - date: "Aug 2026"
     text: "Promoted to Senior Research Scientist at Salesforce AI Research."
   - date: "Aug 2026"
-    text: "New preprint: [On the Fragility of Self-Improving Agents](https://arxiv.org/abs/2608.18066), examining variance, task order, and underspecification."
+    text: "New paper: [On the Fragility of Self-Improving Agents](https://arxiv.org/abs/2608.18066), examining variance, task order, and underspecification."
   - date: "Jul 2026"
-    text: "New preprints: [Speculate with Memory](https://arxiv.org/abs/2607.12236) on lossless acceleration for LLM agents, and [Best Friends, Not Forever](https://arxiv.org/abs/2607.28818) on persona collapse and behavioral drift in AI companions."
+    text: "New papers: [Speculate with Memory](https://arxiv.org/abs/2607.12236) on lossless acceleration for LLM agents, and [Best Friends, Not Forever](https://arxiv.org/abs/2607.28818) on persona collapse and behavioral drift in AI companions."
   - date: "Oct 2025"
     text: "Defended my Ph.D. in Computer Science at Columbia. Committee members: Prof. Julia Hirschberg, Prof. Kathleen McKeown, Dr. Michel Galley, Prof. Yang Liu, Prof. Zhou Yu."
   - date: "Jul 2025"
