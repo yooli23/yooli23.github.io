@@ -6,7 +6,7 @@
       <li>
         <span class="year">{{ pub.date | date: '%Y' }}</span>
         <span class="entry">
-          {% if pub.paperurl %}<a href="{{ pub.paperurl }}">{{ pub.title }}</a>{% else %}<a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>{% endif %}{% if pub.venue %}. {{ pub.venue }}{% endif %}.
+          {% if pub.paperurl %}<a href="{{ pub.paperurl }}">{{ pub.title }}</a>{% else %}<a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>{% endif %}{% if pub.venue and pub.venue != 'Preprint' %}. {{ pub.venue }}{% endif %}.
           {% if pub.excerpt %}<span class="excerpt">{{ pub.excerpt | strip_html }}</span>{% endif %}
         </span>
       </li>

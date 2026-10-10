@@ -2,7 +2,7 @@
 title: "InterviewSim: A Scalable Framework for Interview-Grounded Personality Simulation"
 collection: publications
 permalink: /publication/2026-interviewsim
-date: 2026-02-15
+date: 2026-02-23
 venue: "COLM 2026"
 paperurl: "https://arxiv.org/abs/2602.20294"
 excerpt: "Yu Li, Pranav Narayanan Venkit, Yada Pruksachatkun, Chien-Sheng Wu."
